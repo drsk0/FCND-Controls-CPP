@@ -1,6 +1,7 @@
 #pragma once
 
 #include <vector>
+#include <string>
 
 namespace SLR
 {
@@ -69,7 +70,7 @@ inline std::string RightOf(const std::string& s, char c)
   return s.substr(i + 1);
 }
 
-inline std::vector<string> Split(const char* str, char c = ' ')
+inline std::vector<std::string> Split(const char* str, char c = ' ')
 {
   std::vector<std::string> result;
 
